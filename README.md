@@ -15,6 +15,6 @@ Este es el juego del "Amigo Secreto" que permite a los usuarios agregar amigos a
 ## Ejecución
 
 1. Abre el archivo HTML que contiene este repositorio en tu navegador.
-2. Escribe un nombre en el campo de entrada y haz clic en el botón de "Agregar Amigo" para agregarlo a la lista.
+2. Escribe un nombre en el campo de entrada y haz clic en el botón de "Añadir" para agregarlo a la lista.
 3. Repite este paso para agregar más amigos.
-4. Haz clic en el botón de "Sortear Amigo Secreto" para elegir un amigo secreto aleatoriamente.
+4. Haz clic en el botón de "Sortear Amigo" para elegir un amigo secreto aleatoriamente.
