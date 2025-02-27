@@ -11,7 +11,7 @@ function agregarAmigo() {
     const nombre = input.value.trim(); // Obtiene el valor del input
     
     // Validación para asegurar que el campo no esté vacío
-    if (!nombre) {
+    if (!nombre) {//Si no hay un "nombre"
         alert("Por favor, inserta un nombre.");
         return;
     }
@@ -29,7 +29,7 @@ function actualizarLista() {
 // Función para elegir un amigo secreto aleatoriamente
 function sortearAmigo() { 
     if (amigos.length < 2) {
-        alert("Debe haber al menos dos amigos para el juego.");
+        alert("Debes agregar al menos dos amigos para el sorteo.");
         return;
     }  
     let elegido = amigos[Math.floor(Math.random() * amigos.length)]; // Selecciona un amigo aleatorio
